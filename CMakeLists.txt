@@ -16,7 +16,7 @@ add_executable(rgbpad
     src/main.cpp
 )
 
-target_link_libraries(rgbpad pico_stdlib pico_rgb_keypad)
+target_link_libraries(rgbpad pico_stdlib pico_rgb_keypad graphics)
 
 pico_enable_stdio_usb(rgbpad 0)
 pico_enable_stdio_uart(rgbpad 1)
@@ -26,3 +26,4 @@ pico_add_extra_outputs(rgbpad)
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG")
 
 add_subdirectory(vendor/pimoroni-pico/libraries/pico_rgb_keypad)
+add_subdirectory(lib/graphics)
