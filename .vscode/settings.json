@@ -1,0 +1,19 @@
+{
+    "cmake.environment": {
+        "PICO_SDK_PATH": "../pico-sdk"
+    },
+    "cmake.statusbar.advanced": {
+        "debug": {
+            "visibility": "hidden"
+        },
+        "launch": {
+            "visibility": "hidden"
+        },
+        "build": {
+            "visibility": "default",
+        },
+        "buildTarget": {
+            "visibility": "hidden"
+        }
+    }
+}
