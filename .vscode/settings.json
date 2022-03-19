@@ -1,6 +1,7 @@
 {
     "cmake.environment": {
-        "PICO_SDK_PATH": "../pico-sdk"
+        "PICO_SDK_PATH": "../vendor/pico-sdk",
+        "PIMORONI_PICO_PATH": "../vendor/pimoroni-pico/",
     },
     "cmake.statusbar.advanced": {
         "debug": {
